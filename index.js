@@ -31,13 +31,23 @@ const name = "Кот";
 const gretName = greetings + znak + probel + name;
 console.log(`Ответ на 6 вопрос: ${gretName}`);
 
-let time = 34;
-
+let time;
+time = 34;
 console.log(time);
 console.log('Старт поездки. Осталось минут: ' + time);
-let time1 = 19;
-console.log('Немного сторис в соцсетях. Осталось минут:' + time1);
-let time2 = 9;
-console.log('Немного не новостей, но событий. Осталось минут:' + time2);
-let time3 = 0;
+console.log(time - 15);
+time = 19;
+console.log('Немного сторис в соцсетях. Осталось минут:' + time);
+console.log(time - 10);
+time = 9;
+console.log('Немного не новостей, но событий. Осталось минут:' + time);
+time = 0;
 console.log("Вы приехали.Добро пожаловать в Москву.");
+
+
+let fahrenheit;
+fahrenheit = 451;
+console.log((fahrenheit - 32) /1.8);
+let celcius;
+celcius = 232.7777777777; 
+console.log(`${fahrenheit} градуса по Фаренгейту - это ${celcius} градуса по Цельсию.`);
